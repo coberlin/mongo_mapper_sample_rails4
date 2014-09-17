@@ -3,5 +3,6 @@ class Project
 
   key :name, String
   key :completed, Boolean
+  timestamps!
 
 end
