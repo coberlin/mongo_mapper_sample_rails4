@@ -13,7 +13,7 @@
   <tbody>
     <% @tasks.each do |task| %>
       <tr>
-        <td><%= task.project_id %></td>
+        <td><%= Project.find_by_id(task.project_id).name %></td>
         <td><%= task.name %></td>
         <td><%= task.completed %></td>
         <td><%= link_to 'Show', task %></td>

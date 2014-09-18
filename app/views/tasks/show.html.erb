@@ -2,7 +2,7 @@
 
 <p>
   <strong>Project:</strong>
-  <%= @task.project_id %>
+  <%= Project.find_by_id(@task.project_id).name %>
 </p>
 
 <p>

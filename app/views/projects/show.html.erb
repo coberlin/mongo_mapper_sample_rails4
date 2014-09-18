@@ -10,5 +10,22 @@
   <%= @project.completed %>
 </p>
 
+<p>
+  <strong>Related Tasks:</strong>
+</p>
+  <% @project.tasks.each do |task| %>
+  	
+  	<p>
+	  <strong>Task:</strong>
+	  <%= task.name %>
+  	</p>
+  	<p>
+	  <strong>Completed:</strong>
+	  <%= task.completed %>
+  	</p>
+	<% end %>	
+
+
+
 <%= link_to 'Edit', edit_project_path(@project) %> |
 <%= link_to 'Back', projects_path %>
