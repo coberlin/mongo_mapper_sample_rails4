@@ -1,28 +1,10 @@
 == README
+This is a sample Ruby on Rails 4 application using the Mongo Mapper gem for MongoDB. 
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+== References
+1. http://docs.mongodb.org/manual/tutorial/install-mongodb-on-os-x/
+2. http://mongomapper.com/documentation/getting-started/rails.html
+3. http://railscasts.com/episodes/194-mongodb-and-mongomapper
+4. http://mongomapper.com/documentation/types.html
 
 
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
