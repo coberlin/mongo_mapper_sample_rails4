@@ -1,0 +1,50 @@
+$font-family-sans-serif:  "Roboto", sans-serif !default;
+
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+
+html, 
+body {
+	height: 100%;
+}
+
+#wrap {
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	margin: 0 auto -100px;
+}
+#push {
+	height: 100px;
+}
+#footer {
+	position: relative;
+	height: 100px;
+	clear:both;
+	padding-top:20px;
+}
+
+/* Lastly, apply responsive CSS fixes as necessary */
+@media (max-width: 767px) {
+    #footer {
+        margin-left: -20px;
+        margin-right: -20px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+
+.margin-left {
+	margin-left: 30px;
+}
+
+.margin-top {
+	margin-top: 30px;
+}
+
+.margin-left-flush {
+	margin-left: 0px;
+}
+

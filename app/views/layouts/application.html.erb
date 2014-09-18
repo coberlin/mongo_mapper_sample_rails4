@@ -8,7 +8,18 @@
 </head>
 <body>
 
-<%= yield %>
+<div id = "wrap">
+		
+		<% flash.each do |name, msg| -%>
+		      <%= content_tag :div, msg, class: [name, "container", "interest"] %>
+		<% end -%>
+		    
+		<div class="container">    
+			<%= yield %>
+		</div>
+		<div id="push"></div>
+	</div>
+	
 
 </body>
 </html>
